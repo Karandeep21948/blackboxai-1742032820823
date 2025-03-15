@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lift & Build: Crane Tycoon</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Orbitron:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .game-title {
+            font-family: 'Orbitron', sans-serif;
+        }
+        .content-text {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white min-h-screen">
+    <!-- Navigation Bar -->
+    <nav class="bg-gray-800 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <i class="fas fa-crane text-yellow-500 text-2xl"></i>
+                <h1 class="game-title text-xl font-bold text-yellow-500">Lift & Build: Crane Tycoon</h1>
+            </div>
+            <div class="hidden md:flex space-x-4">
+                <a href="#" class="hover:text-yellow-500 transition-colors">Home</a>
+                <a href="#" class="hover:text-yellow-500 transition-colors">About</a>
+                <a href="#" class="hover:text-yellow-500 transition-colors">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="relative h-[500px] overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-r from-gray-900 to-transparent z-10"></div>
+        <div class="absolute inset-0 bg-[url('https://images.pexels.com/photos/2590716/pexels-photo-2590716.jpeg')] bg-cover bg-center"></div>
+        <div class="relative z-20 container mx-auto h-full flex items-center">
+            <div class="max-w-2xl px-4">
+                <h1 class="game-title text-4xl md:text-6xl font-bold mb-4 text-yellow-500">
+                    Build Your Empire
+                </h1>
+                <p class="content-text text-lg md:text-xl mb-8 text-gray-300">
+                    From crane operator to construction tycoon. Your journey starts here.
+                </p>
+                <div class="flex space-x-4">
+                    <button class="bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-bold py-3 px-6 rounded-lg transition-colors">
+                        Play Now
+                    </button>
+                    <button class="border-2 border-yellow-500 text-yellow-500 hover:bg-yellow-500 hover:text-gray-900 font-bold py-3 px-6 rounded-lg transition-colors">
+                        Learn More
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Game Modes Section -->
+    <section class="py-16 bg-gray-800">
+        <div class="container mx-auto px-4">
+            <h2 class="game-title text-3xl font-bold text-center mb-12 text-yellow-500">Game Modes</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Single Player Campaign -->
+                <div class="bg-gray-700 rounded-lg p-6 transform hover:scale-105 transition-transform">
+                    <div class="text-yellow-500 text-3xl mb-4">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <h3 class="game-title text-xl font-bold mb-2">Single Player Campaign</h3>
+                    <p class="content-text text-gray-300">Build your career from the ground up in our story-driven campaign mode.</p>
+                </div>
+
+                <!-- Multiplayer Co-op -->
+                <div class="bg-gray-700 rounded-lg p-6 transform hover:scale-105 transition-transform">
+                    <div class="text-yellow-500 text-3xl mb-4">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 class="game-title text-xl font-bold mb-2">Multiplayer Co-op</h3>
+                    <p class="content-text text-gray-300">Team up with friends to tackle massive construction projects together.</p>
+                </div>
+
+                <!-- Sandbox Mode -->
+                <div class="bg-gray-700 rounded-lg p-6 transform hover:scale-105 transition-transform">
+                    <div class="text-yellow-500 text-3xl mb-4">
+                        <i class="fas fa-box-open"></i>
+                    </div>
+                    <h3 class="game-title text-xl font-bold mb-2">Sandbox Mode</h3>
+                    <p class="content-text text-gray-300">Unleash your creativity with unlimited resources and no restrictions.</p>
+                </div>
+
+                <!-- Time Challenges -->
+                <div class="bg-gray-700 rounded-lg p-6 transform hover:scale-105 transition-transform">
+                    <div class="text-yellow-500 text-3xl mb-4">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3 class="game-title text-xl font-bold mb-2">Time Challenges</h3>
+                    <p class="content-text text-gray-300">Test your skills in fast-paced, competitive crane operation tasks.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-16 bg-gray-900">
+        <div class="container mx-auto px-4">
+            <h2 class="game-title text-3xl font-bold text-center mb-12 text-yellow-500">Key Features</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Realistic Physics -->
+                <div class="flex items-start space-x-4">
+                    <div class="text-yellow-500 text-2xl">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <div>
+                        <h3 class="game-title text-xl font-bold mb-2">Realistic Physics</h3>
+                        <p class="content-text text-gray-300">Experience true-to-life crane operations with our advanced physics engine.</p>
+                    </div>
+                </div>
+
+                <!-- Dynamic Weather -->
+                <div class="flex items-start space-x-4">
+                    <div class="text-yellow-500 text-2xl">
+                        <i class="fas fa-cloud-sun"></i>
+                    </div>
+                    <div>
+                        <h3 class="game-title text-xl font-bold mb-2">Dynamic Weather</h3>
+                        <p class="content-text text-gray-300">Adapt to changing weather conditions that affect crane stability and operations.</p>
+                    </div>
+                </div>
+
+                <!-- Career Progression -->
+                <div class="flex items-start space-x-4">
+                    <div class="text-yellow-500 text-2xl">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div>
+                        <h3 class="game-title text-xl font-bold mb-2">Career Progression</h3>
+                        <p class="content-text text-gray-300">Grow from operator to tycoon with our detailed progression system.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="py-16 bg-yellow-500">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="game-title text-3xl font-bold mb-4 text-gray-900">Ready to Build Your Empire?</h2>
+            <p class="content-text text-xl mb-8 text-gray-800">Join thousands of players in the most realistic construction simulator ever made.</p>
+            <button class="bg-gray-900 text-yellow-500 font-bold py-3 px-8 rounded-lg hover:bg-gray-800 transition-colors">
+                Get Started Now
+            </button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 py-8">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="flex items-center space-x-2 mb-4 md:mb-0">
+                    <i class="fas fa-crane text-yellow-500 text-2xl"></i>
+                    <span class="game-title text-xl font-bold text-yellow-500">Lift & Build</span>
+                </div>
+                <div class="flex space-x-6">
+                    <a href="#" class="text-gray-300 hover:text-yellow-500 transition-colors">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="text-gray-300 hover:text-yellow-500 transition-colors">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="#" class="text-gray-300 hover:text-yellow-500 transition-colors">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="text-gray-300 hover:text-yellow-500 transition-colors">
+                        <i class="fab fa-discord"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="mt-8 text-center text-gray-400 content-text">
+                © 2024 Lift & Build: Crane Tycoon. All rights reserved.
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
